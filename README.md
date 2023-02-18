@@ -1,5 +1,5 @@
 ![Logo](https://github.com/hypertacos520/Luddy-Makerspace-Design-Archive/blob/main/assets/banner.png?raw=true) 
-# Makerspace Digital Design Archive
+# Digital Design Archive
 
 This repository is intended to be used as an archive for designs made with Luddy Makerspace equipment in mind. Members of the Luddy Makerspace Technician Team can commit new designs at any time as long as they are in a finished state.
 
@@ -11,7 +11,7 @@ Each directory has its own set of subdirectory. One off designs that are a singl
 
 The file naming scheme only has a couple of rules to it. All files should take on the lowercase-hyphenated format (example: project-stl-file.stl). For illustrator files, you must also add two letters at the beginning to indicate the intended machine (vc: Vinyl Cutter, lc: Laser Cutter).
 
-While these repo rules may seem kind of strict for what is essentially just a design archive, they've been put in place because this is intended to be a more long-term directory. When you submit a repo commit, please consider that someone else a few years from now may come across your design and want to run it. For complex jobs, they may not have your specific though process in mind when looking at the design file, so consider adding a README explaining how to run the file on Makerspace Equipment. 
+While these repo rules may seem kind of strict for what is essentially just a really big folder, they've been put in place because this is intended to be a more long-term directory. When you submit a repo commit, please consider that someone else a few years from now may come across your design and want to run it. For complex jobs, they may not have your specific though process in mind when looking at the design file, so consider adding a README explaining how to run the file on Makerspace Equipment. 
 
 # Illustrator File Notes
 
@@ -19,5 +19,7 @@ Illustrator files can be run on multiple Makerspace Machines, so I've added this
 
 | Filename    | Intended Machine |
 | ----------- | ----------- |
-| vc-<filename>.ai | Vinyl Cutter |
-| lc-<filename>.ai | Laser Cutter |
+| vc-(filename).ai | Vinyl Cutter |
+| lc-(filename).ai | Laser Cutter |
+
+When commiting an illustator file, please ensure that any images used are either embedded in the file, or image traced, expanded, and ungrouped. Without doing one of these two things, illustrator files will experience data loss.
